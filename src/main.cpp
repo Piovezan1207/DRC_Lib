@@ -64,11 +64,11 @@ unsigned long Valores[Total][N],
 byte Entradas[] = {echoF, echoDir, echoEsq};
 byte Saidas[] = {IN1, IN2, IN3, IN4, En1, En2, trigF, trigDir, trigEsq};
 
-void Calibra();
-void Atualiza_Parametro_EEPROM();
-long Medir();
-void Calcular();
-long Filtro_Mag(long pulso);
+void Calibra();//
+void Atualiza_Parametro_EEPROM();//
+long Medir();//
+void Calcular();//
+long Filtro_Mag(long pulso);//
 float LeituraF();
 float LeituraDir();
 float LeituraEsq();
